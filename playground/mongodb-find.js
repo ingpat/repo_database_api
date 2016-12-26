@@ -28,7 +28,7 @@ console.log('Todos');
     console.log('unable to fetch todos',err);
 });
 
-//compter
+//compter 
 db.collection('Todos').find().count().then((count)=>{
  console.log(`Todos count ${count}`);
 },(err)=>{
